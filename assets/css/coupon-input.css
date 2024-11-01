@@ -1,0 +1,45 @@
+.coupon-input-box {
+    display: flex;
+    align-items: center;
+}
+
+.coupon input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    flex: 1;
+    margin-right: 10px;
+    border: 1px solid #ccc !important;
+    border-radius: 4px;
+}
+
+.coupon-input-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0071a1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.coupon-input-box button:hover {
+    background-color: #005f8a;
+}
+
+#eplugins_coupon_message {
+    margin-top: 10px;
+}
+.woocommerce-notices-wrapper .notice-close {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #ffffff; /* Change to your desired color */
+	
+}
+
+.woocommerce-notices-wrapper .woocommerce-message,
+.woocommerce-notices-wrapper .woocommerce-error,
+.woocommerce-notices-wrapper .woocommerce-info {
+    position: relative;
+    padding-right: 30px; /* Ensure space for the close button */
+}
